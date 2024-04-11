@@ -4,11 +4,11 @@ The locations encompass Gutten Plans, a frozen dough specialist company operatin
 I got the dataset from a goodle drive shared to access workable and tasking datasets.
 
 ## Data Cleaning
-I simply removed some rows irrelevant to the visualization of the data, there aren't so much null values. I was able to fill u[p the null values with the mode for Product with 6 null values and Category with 267,and I replaced the null values for the Mprice with the mean.
-Lastly I categorized some of the datum in the columns for easy visualization cause of the duplicates present.
+I simply removed some rows irrelevant to the visualization of the data, there aren't so much null values which I was able to fill up the null values with the mode for Product with 6 null values and Category with 267,and I replaced the null values for the Mprice with the mean.
+Lastly I categorized some of the data in the columns for easy visualization cause of the duplicates present.
 
 ## EDA
-I was able to perform the eploratory data analysis on the data using the .describe() function and most purchased category of product.
+I was able to perform the eploratory data analysis on the data using the .describe() function and was able to discover the  most purchased category of product.
 
 ## VISUALIZATION
 I made visualizations tpo draw insights on the following information on the data.
