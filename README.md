@@ -11,7 +11,7 @@ Lastly I categorized some of the data in the columns for easy visualization caus
 I was able to perform the eploratory data analysis on the data using the .describe() function and was able to discover the  most purchased category of product.
 
 ## VISUALIZATION
-I made visualizations tpo draw insights on the following information on the data.
+I made visualizations to draw insights on the following information on the data.
 * Highest sold Category
 * Status with highest Option
 * Mode of Transaction
@@ -19,13 +19,13 @@ I made visualizations tpo draw insights on the following information on the data
 * Machine with the highest Sales
   
 ## INSIGHTS
-* Highest sold category is food which implies that customers has more need for food than every other commodity
-* Status with highest option is proceesed commodity with the unlinked commotity with so insignificant value of 3
-* The most prefered mode of transaction by the customers is cash over credit
-* Guttenplans is the location with the highest transaction and EB public library is close to this
-* Lastly the machine with the hightes transaction is the GuttenplansX1367
+* Highest sold category is "FOOD" which implies that customers has more need for food than every other commodity
+* Status with highest option is "proceesed commodity" with the "unlinked commotity" with so insignificant value of 3
+* The most prefered mode of transaction by the customers is "cash" over "credit'"
+* "Guttenplans" is the location with the highest transaction and EB public library is close
+* Lastly the machine with the highest transaction is the "GuttenplansX1367"
 
 ## SUGGESTIONS
 * Commodity with highest demand should be made available always without default
 * Location with the highest transaction should be focused on for supply of commodity for customers
-* Lastly, the mode of transactions should be made available and the credit means should be encouraged for safety putpose.
+* Lastly, the mode of transactions should be made available and the credit means should be encouraged for safety purpose.
