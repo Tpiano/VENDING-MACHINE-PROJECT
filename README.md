@@ -14,6 +14,7 @@ Data scientists can leverage this dataset to examine trends, user behavior, and 
 * There were relatively few null values in the dataset. To address these, I took the following steps: For the 'Product' column, which had 6 null values, I filled these with the mode of the column to ensure that missing entries were replaced with the most frequently occurring product, thereby preserving the typical data distribution. Similarly, for the 'Category' column, which had 267 null values, I also used the mode to fill in these gaps, maintaining consistency with the most common category.
 
 For the 'MPrice' column, where missing values were present, I replaced these with the mean price. This approach was chosen to provide a balanced estimate of the missing data, reflecting the average price of the products and ensuring that the overall pricing trends were accurately represented. By employing these methods, I was able to maintain the integrity and usability of the dataset while preparing it for comprehensive analysis.
+
 ![null](https://github.com/user-attachments/assets/77543c7c-a765-461f-b679-1408cbce0583)
 ![mean mode](https://github.com/user-attachments/assets/358128db-03b8-48e8-b227-452ae2d36d61)
 
@@ -22,7 +23,7 @@ For the 'MPrice' column, where missing values were present, I replaced these wit
 
 
 ## EDA
-I conducted exploratory data analysis (EDA) on the dataset using the * .describe() * function, which provided a comprehensive summary of key statistical metrics across various columns. Through this analysis, I identified the most frequently purchased product category. This discovery was facilitated by examining summary statistics such as counts, means, and distributions, which highlighted the dominant trends and preferences within the dataset. By leveraging these insights, I was able to pinpoint the category that shows the highest purchase frequency, thereby gaining valuable information about customer preferences and behavior.
+I conducted exploratory data analysis (EDA) on the dataset using the *.describe()* function, which provided a comprehensive summary of key statistical metrics across various columns. Through this analysis, I identified the most frequently purchased product category. This discovery was facilitated by examining summary statistics such as counts, means, and distributions, which highlighted the dominant trends and preferences within the dataset. By leveraging these insights, I was able to pinpoint the category that shows the highest purchase frequency, thereby gaining valuable information about customer preferences and behavior.
 
 ### EDA Thtough Visualization
 Through my analysis of the dataset, I successfully derived valuable insights. The data revealed several key findings that provided a deeper understanding of the patterns and trends within the vending machine operations. These insights includes:
