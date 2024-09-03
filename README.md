@@ -18,6 +18,8 @@ I was able to perform the exploratory data analysis on the data using the .descr
 Through my analysis of the dataset, I successfully derived valuable insights. The data revealed several key findings that provided a deeper understanding of the patterns and trends within the vending machine operations. These insights includes:
 
 #### 1. The most frequently sold product category: 
+![highest sold](https://github.com/user-attachments/assets/1b61b8f1-b6cf-4fa7-ab5c-b18b8171f8cd)
+
 The analysis revealed that the 'FOOD' category is the highest-selling among all product categories. This indicates a strong consumer preference for food items, suggesting that customers are more likely to purchase food from vending machines than any other type of commodity. This trend highlights the significant demand for convenient and readily available food options, which could be a key factor in driving the overall sales performance of the vending machines.
  ##### Suggestions
   * Expand Food Offerings: Given the high demand for food items, consider expanding the variety of food products available in vending machines to include new and popular items.
