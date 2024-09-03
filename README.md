@@ -8,11 +8,21 @@ The locations encompass:
 Data scientists can leverage this dataset to examine trends, user behavior, and consumer preferences across various locations. The dataset was obtained from a private organization via a link shared during a bootcamp for accessing practical and challenging datasets.
 
 ## Data Cleaning
-I simply removed some rows irrelevant to the visualization of the data, there aren't so much null values which I was able to fill up the null values with the mode for Product with 6 null values and Category with 267,and I replaced the null values for the Mprice with the mean.
-Lastly I categorized some of the data in the columns for easy visualization because of the duplicates present.
+* I performed a data cleaning process where I meticulously removed rows deemed irrelevant to the visualization objectives. This involved identifying and excluding data points that did not contribute meaningfully to the analysis or were likely to distort the insights. Specifically, I focused on eliminating entries that were not aligned with the core metrics of interest, such as rows with incomplete or erroneous information, test data, or outliers that could skew the results. This targeted approach ensured that the dataset used for visualization and subsequent analysis was more refined and relevant, thereby enhancing the accuracy and clarity of the insights derived from the data.
+  ![drop](https://github.com/user-attachments/assets/c015d783-ce7f-483c-b98c-7d4f013095ef)
+
+* There were relatively few null values in the dataset. To address these, I took the following steps: For the 'Product' column, which had 6 null values, I filled these with the mode of the column to ensure that missing entries were replaced with the most frequently occurring product, thereby preserving the typical data distribution. Similarly, for the 'Category' column, which had 267 null values, I also used the mode to fill in these gaps, maintaining consistency with the most common category.
+
+For the 'MPrice' column, where missing values were present, I replaced these with the mean price. This approach was chosen to provide a balanced estimate of the missing data, reflecting the average price of the products and ensuring that the overall pricing trends were accurately represented. By employing these methods, I was able to maintain the integrity and usability of the dataset while preparing it for comprehensive analysis.
+![null](https://github.com/user-attachments/assets/77543c7c-a765-461f-b679-1408cbce0583)
+![mean mode](https://github.com/user-attachments/assets/358128db-03b8-48e8-b227-452ae2d36d61)
+
+* Lastly, I categorized certain data within the columns to facilitate easier visualization and analysis, particularly due to the presence of duplicate entries. By grouping similar data points into categories, I was able to streamline the dataset and reduce redundancy. This categorization involved consolidating duplicate values and organizing data into more meaningful groups, which enhances clarity and allows for more straightforward analysis. This approach not only improved the overall structure of the dataset but also made it more manageable and insightful for visualization purposes.
+![group](https://github.com/user-attachments/assets/b271ba10-ce49-430a-bb59-81763719e5d1)
+
 
 ## EDA
-I was able to perform the exploratory data analysis on the data using the .describe() function and was able to discover the most purchased category of product.
+I conducted exploratory data analysis (EDA) on the dataset using the * .describe() * function, which provided a comprehensive summary of key statistical metrics across various columns. Through this analysis, I identified the most frequently purchased product category. This discovery was facilitated by examining summary statistics such as counts, means, and distributions, which highlighted the dominant trends and preferences within the dataset. By leveraging these insights, I was able to pinpoint the category that shows the highest purchase frequency, thereby gaining valuable information about customer preferences and behavior.
 
 ### EDA Thtough Visualization
 Through my analysis of the dataset, I successfully derived valuable insights. The data revealed several key findings that provided a deeper understanding of the patterns and trends within the vending machine operations. These insights includes:
@@ -33,12 +43,16 @@ The analysis shows that the status labeled 'Processed Commodity' is the most fre
   * Monitor Rare Exceptions: Although 'Unlinked Commodity' status is rare, it’s important to investigate any occurrences to prevent potential issues and ensure all products are properly      linked and processed.
 
 #### 3. The most common mode of transaction used by customers: 
+![transaction](https://github.com/user-attachments/assets/ba672520-482a-40ae-ac26-ed31f0c28dad)
+
 The analysis indicates that customers overwhelmingly prefer using 'cash' as their mode of transaction, with cash transactions occurring more frequently than those using 'credit'. This preference suggests that cash is the more convenient or accessible payment method for most users, potentially reflecting the demographics or transaction habits of the customer base.
   ##### Suggestions
   * Enhance Cash Handling: Given the preference for cash transactions, ensure that cash handling systems are efficient and reliable. This includes regular maintenance of cash acceptors       and ensuring sufficient change is available.
   * Encourage Cashless Payments: While cash is currently preferred, introducing and promoting cashless payment options with incentives should be consider gradually to prepare for             potential shifts in payment trends.
   
 #### 4. The location that generates the highest sales: 
+![location](https://github.com/user-attachments/assets/54b4e812-0a4d-41a6-b120-e759bba3afd7)
+
 The location 'Guttenplans' stands out as having the highest number of transactions, making it the top-performing location in terms of sales activity. Close behind is the 'EB Public Library,' which also experiences a high volume of transactions, indicating strong customer engagement at both sites. These findings highlight 'Guttenplans' as a key location for vending machine success, with the 'EB Public Library' also playing a significant role.
   ##### Suggestions
   * Focus on High-Performing Locations: Invest in maintaining and possibly expanding vending machine installations at 'Guttenplans' due to its high sales performance.
@@ -46,6 +60,8 @@ The location 'Guttenplans' stands out as having the highest number of transactio
   * Optimize Product Placement: Ensure that the product mix at these top locations is optimized to meet customer preferences and maximize sales.
 
 #### 5. The vending machine with the highest overall sales performance: 
+![highest sales machine](https://github.com/user-attachments/assets/83a889a8-34b5-44b1-9ad1-69c15be652c6)
+
 Lastly, the machine identified as 'GuttenplansX1367' has recorded the highest number of transactions, making it the top-performing machine in the dataset. This machine's strong performance further underscores the popularity and success of the 'Guttenplans' location, as it not only leads in overall transactions but also houses the most active vending machine.
   ##### Suggestions
   * Monitor and Maintain Top Performers: Regularly check and maintain 'GuttenplansX1367' to ensure it continues to operate smoothly and remains in top condition.
