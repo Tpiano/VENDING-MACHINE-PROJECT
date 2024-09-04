@@ -33,40 +33,40 @@ Through my analysis of the dataset, I successfully derived valuable insights. Th
 
 The analysis revealed that the 'FOOD' category is the highest-selling among all product categories. This indicates a strong consumer preference for food items, suggesting that customers are more likely to purchase food from vending machines than any other type of commodity. This trend highlights the significant demand for convenient and readily available food options, which could be a key factor in driving the overall sales performance of the vending machines.
  ##### Suggestions
-  * Expand Food Offerings: Given the high demand for food items, consider expanding the variety of food products available in vending machines to include new and popular items.
-  * Optimize Inventory: Ensure that popular food items are always in stock and monitor sales trends to adjust inventory levels accordingly to avoid stockouts.
-  * Promotional Strategies: Implement targeted promotions or discounts on food items to attract more customers and boost sales further.
+  * Expanding Food Offerings: Given the high demand for food items, expanding the variety of food products available in vending machines to include new and popular items should be            considered.
+  * Optimizing Inventory: Ensuring that popular food items are always in stock and monitor sales trends to adjust inventory levels accordingly to avoid stockouts.
+  * Promotional Strategies: Implementing targeted promotions or discounts on food items to attract more customers and boost sales further.
   
 #### 2. The status option that appears most frequently: 
 The analysis shows that the status labeled 'Processed Commodity' is the most frequently occurring status in the dataset, indicating that the majority of transactions involve items that have been successfully processed. In contrast, the 'Unlinked Commodity' status appears only 3 times, making it an extremely rare occurrence. This suggests that almost all products are properly linked and processed through the system, with only a negligible number of exceptions.
   ##### Suggestions
-  * Maintain Quality Control: Since most transactions involve processed commodities, focus on maintaining high quality and consistency in these products to ensure customer satisfaction.
-  * Monitor Rare Exceptions: Although 'Unlinked Commodity' status is rare, it’s important to investigate any occurrences to prevent potential issues and ensure all products are properly      linked and processed.
+  * Maintaining Quality Control: Since most transactions involve processed commodities,maintaining high quality and consistency in these products to ensure customer satisfaction should       be focused on.
+  * Monitoring Rare Exceptions: Although 'Unlinked Commodity' status is rare, it’s important to investigate any occurrences to prevent potential issues and ensure all products are            properly linked and processed.
 
 #### 3. The most common mode of transaction used by customers: 
 ![transaction](https://github.com/user-attachments/assets/ba672520-482a-40ae-ac26-ed31f0c28dad)
 
 The analysis indicates that customers overwhelmingly prefer using 'cash' as their mode of transaction, with cash transactions occurring more frequently than those using 'credit'. This preference suggests that cash is the more convenient or accessible payment method for most users, potentially reflecting the demographics or transaction habits of the customer base.
   ##### Suggestions
-  * Enhance Cash Handling: Given the preference for cash transactions, ensure that cash handling systems are efficient and reliable. This includes regular maintenance of cash acceptors       and ensuring sufficient change is available.
-  * Encourage Cashless Payments: While cash is currently preferred, introducing and promoting cashless payment options with incentives should be consider gradually to prepare for             potential shifts in payment trends.
+  * Enhancing Cash Handling: Given the preference for cash transactions, one should ensure that cash handling systems are efficient and reliable. This includes regular maintenance of         cash acceptors and ensuring sufficient change is available.
+  * Encouraging Cashless Payments: While cash is currently preferred, introducing and promoting cashless payment options with incentives should be consider gradually to prepare for           potential shifts in payment trends.
   
 #### 4. The location that generates the highest sales: 
 ![location](https://github.com/user-attachments/assets/54b4e812-0a4d-41a6-b120-e759bba3afd7)
 
 The location 'Guttenplans' stands out as having the highest number of transactions, making it the top-performing location in terms of sales activity. Close behind is the 'EB Public Library,' which also experiences a high volume of transactions, indicating strong customer engagement at both sites. These findings highlight 'Guttenplans' as a key location for vending machine success, with the 'EB Public Library' also playing a significant role.
   ##### Suggestions
-  * Focus on High-Performing Locations: Invest in maintaining and possibly expanding vending machine installations at 'Guttenplans' due to its high sales performance.
-  * Leverage Successful Locations: Analyze what makes 'Guttenplans' and 'EB Public Library' successful (e.g., foot traffic, demographics) and apply similar strategies to other locations      to enhance their performance.
-  * Optimize Product Placement: Ensure that the product mix at these top locations is optimized to meet customer preferences and maximize sales.
+  * Focusing on High-Performing Locations: Investment in maintaining and possibly expanding vending machine installations at 'Guttenplans' due to its high sales performance.
+  * Leveraging Successful Locations: What makes 'Guttenplans' and 'EB Public Library' successful (e.g., foot traffic, demographics) should be analyzed and similar strategies should be         applied to other locations to enhance their performance.
+  * Optimizing Product Placement: Ensuring that the product mix at these top locations is optimized to meet customer preferences and maximize sales.
 
 #### 5. The vending machine with the highest overall sales performance: 
 ![highest sales machine](https://github.com/user-attachments/assets/83a889a8-34b5-44b1-9ad1-69c15be652c6)
 
 Lastly, the machine identified as 'GuttenplansX1367' has recorded the highest number of transactions, making it the top-performing machine in the dataset. This machine's strong performance further underscores the popularity and success of the 'Guttenplans' location, as it not only leads in overall transactions but also houses the most active vending machine.
   ##### Suggestions
-  * Monitor and Maintain Top Performers: Regularly check and maintain 'GuttenplansX1367' to ensure it continues to operate smoothly and remains in top condition.
-  * Analyze Successful Features: Investigate any specific features or locations of 'GuttenplansX1367' that contribute to its success, and consider replicating these features in other         machines.
-  * Leverage High-Performing Machines: Use 'GuttenplansX1367' as a benchmark for performance and consider showcasing its success in marketing materials or case studies.
+  * Monitoring and Maintaining Top Performers: Regularly checking and maintaining 'GuttenplansX1367' to ensure it continues to operate smoothly and remains in top condition.
+  * Analyzing Successful Features: Investigating any specific features or locations of 'GuttenplansX1367' that contribute to its success, and replicating these features in       other machines should be considered.
+  * Leveraging on High-Performing Machines: Using 'GuttenplansX1367' as a benchmark for performance and considering showcasing its success in marketing materials or case studies.
 
 #### By implementing these recommendations, I believe the business can optimize its vending machine operations, enhance customer satisfaction, and drive greater overall success.
